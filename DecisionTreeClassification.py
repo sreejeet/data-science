@@ -1,5 +1,5 @@
 # This is a decision tree classifier using scikit-learn
-# Lets say we have a bunch of black pens and green tennis balls
+# Let's say we have a bunch of black pens and green tennis balls
 # We can take numeric values for each feature and label:
 # shape 'pointed' as 0
 # shape 'blunt' as 1
