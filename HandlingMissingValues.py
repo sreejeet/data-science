@@ -64,7 +64,7 @@ print(dataset_score(imputed_X_train_plus, imputed_X_test_plus, y_train, y_test))
 
 
 
-# Test Execution output
+# Sample output:
 # Mean Absolute error after dropping columns with missing values:
 # 188159.51050097012
 # Mean Absolute error after imputing missing values:

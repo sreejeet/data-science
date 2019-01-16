@@ -5,8 +5,8 @@
 # shape 'blunt' as 1
 # colour 'green' as 2
 # colour 'black' as 3
-# colour 'ball' as 4
-# colour 'pen' as 5
+# object 'ball' as 4
+# object 'pen' as 5
 
 from sklearn import tree
 
