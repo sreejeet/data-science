@@ -25,7 +25,7 @@ def model_test(X_train, X_test, y_train, y_test, est=None, esr=None, lr=None):
     return mean_absolute_error(y_test, pred)
 
 # Setting up train and test data
-data = pd.read_csv('./data/train.csv')
+data = pd.read_csv('../data/train.csv')
 data.dropna(inplace=True, subset=['SalePrice'], axis=0)
 
 X = data.drop(['SalePrice'], axis=1).select_dtypes(exclude=['object'])

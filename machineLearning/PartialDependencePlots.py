@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer
 
 # The PDP will show us the relationship between the target and its features
 features = ['Distance', 'Landsize', 'BuildingArea']
-data = pd.read_csv('./data/melb_data.csv')
+data = pd.read_csv('../data/melb_data.csv')
 y = data.Price
 X = data[features]
 imputer = SimpleImputer()

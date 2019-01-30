@@ -13,7 +13,7 @@ from sklearn.metrics import mean_absolute_error
 
 
 # Setup
-data = pd.read_csv('./data/melb_data.csv')
+data = pd.read_csv('../data/melb_data.csv')
 cols = ['Rooms', 'Distance', 'Landsize', 'BuildingArea', 'YearBuilt']
 X = data[cols]
 y = data.Price

@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 
 
-melb_data = pd.read_csv('./data/melb_data.csv')
+melb_data = pd.read_csv('../data/melb_data.csv')
 y = melb_data.Price # Our target column to be predicted
 X = melb_data.drop(['Price'], axis=1) # Our prediction features
 
